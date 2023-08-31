@@ -1,0 +1,78 @@
+p.first{
+	display: flex;
+	flex-direction: row;
+	justify-content:  flex-end;
+	margin:0;
+}
+p.second{
+	text-align: center;
+	font-weight: bold;
+     margin:0
+}
+p.category{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin:0;
+}
+.category button {
+
+   
+	color:white;
+	border-radius: 10px;
+	background-color: red;
+	border:red solid thin;
+
+}
+#login{
+
+	border:black solid thin;
+	border-radius: 10px;
+	background-color: white;
+}
+#cart{
+	border:none;
+	color:red;
+	font-weight: bold;
+	border:red solid thin;
+	border-radius: 10px;
+	background-color: white;
+}
+button:hover {
+        box-shadow: 0 0 0 1px red;
+}
+section{
+	display: inline-block;
+	margin: 0;
+}
+section img{
+	width: 50vw;
+	width:40vw;
+}
+main{
+	display: grid;
+	grid-auto-flow: column;
+	margin:1em;
+	height:60vh;
+}
+form{
+
+	align-self: center;
+
+
+}
+#name {
+	font-weight: bold;
+}
+#price {
+	color:red;
+	font-weight: bold;
+}
+#add{
+	color:white;
+	border-radius: 10px;
+	background-color: red;
+	border:red solid thin;
+}
+
+

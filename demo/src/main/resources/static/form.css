@@ -1,0 +1,43 @@
+
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+section{
+	display:inline-block;
+	margin: 0;
+}
+h2{
+	text-align: center;
+	color:red;
+}
+
+p.message{
+	text-align: center;
+	border:red dotted thin;
+	margin: 2em;
+}
+
+
+input{
+	border:none;
+	border-bottom: red solid thin;
+	display: block;
+}
+input[type="submit"]{
+
+
+	color:white;
+	border-radius: 10px;
+	background-color: red;
+	border:red solid thin;
+}
+#account{
+	display: none;
+	color:white;
+	border-radius: 10px;
+	background-color: red;
+	border:red solid thin;
+
+}

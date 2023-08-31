@@ -1,0 +1,50 @@
+main{
+	height:80vh;
+   overflow-y:scroll;
+}
+p.first{
+	display: flex;
+	flex-direction: row;
+	justify-content:  flex-end;
+	margin:0;
+}
+p.analysis{
+	
+	text-align: center;
+font-weight:bold;
+color:blue;
+	
+}
+#login{
+
+	border:black solid thin;
+	border-radius: 10px;
+	background-color: white;
+}
+h4{
+	text-align: center;
+}
+button.purchase {
+	color:white;
+	border-radius: 10px;
+	background-color: red;
+	border:red solid thin;
+
+}
+button:hover {
+        box-shadow: 0 0 0 1px red;
+}
+main > p {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: red;
+	text-align:center;
+
+     }
+     button.remove{
+     border:red solid thin;
+	border-radius: 10px;
+	background-color: white;
+	color:red;
+     
+     }

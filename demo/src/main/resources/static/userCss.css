@@ -1,0 +1,34 @@
+h2{
+	text-align: center;
+
+}
+button.logout{
+
+
+	color:white;
+	border-radius: 10px;
+	background-color: red;
+	border:red solid thin;
+}
+ul.history{
+	list-style-type: disc;
+}
+button:hover{
+	box-shadow: 0 0 0 2px red;
+}
+#name{
+  
+  text-align: center;
+
+}
+#email{
+	color:red;
+	text-align: center;
+}
+#tel{
+	text-align: center;
+	font-style: italic;
+}
+li:first-child{
+	color:red;
+}

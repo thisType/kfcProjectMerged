@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<title>iCars</title>
+<html>
+<head>
+	<title>KFC</title>
+	<link rel="stylesheet" href="welcomeCss.css"  type="text/css" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+	</head>
+<body>
+	<header>
+		<h1>KFC Delivery</h1>
+		<p  class='first'>
+		<button id='cart'> cart </button>
+		<button  id='login' >Signin</button>
+	</p>
+<p class="second">Price in Ksh</p>
+
+<p class="category">
+	<button>300</button>
+	<button>370</button> 
+    <button>390</button> 
+	<button >450</button> 
+	<button>590</button> 
+	<button>650</button> 
+	<button>1000</button> 
+			</p>
+</header>
+<main>
+	<section class="image"> <img id="show" src="one.jpeg" /></section>
+	<section class="details">
+		<p id="name">Welcome KfC </p>
+		<p id="description">Your favorite meal</p>
+		<p id="price">afforndable prices</p>
+		<h3> Prepare Your Cart here  </h3>
+		<label for="orders">Quantity</label>
+		 <input id="quantity" type="range" min="1" max="20" value="1" onchange="orderOutput.value=value"> <output id="orderOutput">1</output> 
+<button id="add">Add To Cart</button>
+	</section>
+
+</main>
+<script type="text/javascript" src="welcomeJS.js"></script>
+</body>
+</html>
+
